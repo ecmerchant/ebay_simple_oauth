@@ -1,6 +1,7 @@
 require 'net/http'
 
 # One example to echange oauth code to access token in Rails
+# https://developer.ebay.com/api-docs/static/oauth-auth-code-grant-request.html
 
 def callback
   # https://developer.ebay.com/my/auth?env=sandbox&index=0
